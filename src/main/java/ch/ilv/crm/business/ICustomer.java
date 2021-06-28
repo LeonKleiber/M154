@@ -6,7 +6,7 @@ package ch.ilv.crm.business;
 
 //Interface declaration
 public interface ICustomer {
-	
+
 	// Getter methods
 	/**
 	 * @return the name of the customer
@@ -18,13 +18,12 @@ public interface ICustomer {
 	 */
 	public String getForename();
 
-	
 	// Setter methods
 	/**
 	 * Set the name of the customer
 	 */
 	public void setName(String name);
-	
+
 	/**
 	 * Set the forename of the customer
 	 */
